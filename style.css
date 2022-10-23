@@ -1,0 +1,74 @@
+body {
+    font-size: 22px;
+    position: fixed; 
+    overflow-y: scroll;
+}
+
+td {
+    font-size: 22px;
+}
+
+button {
+    padding: 3px 9px !important;
+    margin: 2px;
+}
+
+.main-part-element {
+    position: absolute;
+    max-width: max-content;
+    z-index: 1000;
+    opacity: 1.0;
+    background-color: snow;
+    border-radius: 0.25rem;
+    border: 2px solid yellowgreen;
+    padding: 5px;
+}
+
+.centered {
+    width: 100%;
+    /* height: 35px; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+span.vertex {
+    display: inline-block;
+    min-width: max-content;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 10px 3px 10px;
+    margin: 0px 5px;
+    height: 41px;
+}
+
+.noselect {
+  -webkit-touch-callout: none !important; /* iOS Safari */
+    -webkit-user-select: none !important; /* Safari */
+     -khtml-user-select: none !important; /* Konqueror HTML */
+       -moz-user-select: none !important; /* Old versions of Firefox */
+        -ms-user-select: none !important; /* Internet Explorer/Edge */
+            user-select: none !important; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.axiom-hover:hover {
+    background-color: coral;
+    opacity: 0.5;
+}
+
+#generalContainer {
+    position: absolute;
+    top: -4000px;
+    left: -4000px;
+    width: 10000px;
+    height: 10000px;
+}
+
+#coords {
+    position: absolute;
+    left: 2vw;
+    top: 90vh;
+    z-index: 1001;
+    width: max-content;
+}
